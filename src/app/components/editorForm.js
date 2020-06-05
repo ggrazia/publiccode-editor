@@ -116,7 +116,6 @@ const EditForm = props => {
   }
   
   let sectionsWithErrors = [];
-  //submitFailed &&
   
   if (submitFailed && errors) {
     sectionsWithErrors = Object.keys(errors).reduce((s, e) => {
